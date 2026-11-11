@@ -1,0 +1,17 @@
+﻿<Window x:Class="_2026_WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF小作家" Height="450" Width="600" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Height="28" Background="#F0F0F0" BorderBrush="#CCCCCC" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="📄  📹 | ↖  🔲  ↖✨ | [s]  ⏱ | ✔" Foreground="#555"/>
+            </StackPanel>
+        </Border>
+
+        <!-- 中央開啟按鈕 -->
+        <Grid Background="#F0F0F0">
+            <Button Content="開啟檔案" Width="120" Height="60" FontSize="16" Background="#DCDCDC" Click="BtnOpenViewer_Click" />
+        </Grid>
+    </DockPanel>
+</Window>
